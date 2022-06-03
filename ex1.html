@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ex_1</title>
+</head>
+<body>
+
+    <div class="wrap">
+        <h3>회원정보</h3>
+        <p>유저 번호 : <span class="id"></span> </p>
+        <p>아이디 : <span class="username"></span></p>
+        <p>패스워드 : <span class="password"></span></p>
+        <p>이름 : <span class="name"></span></p>
+    </div>
+
+    
+    <script>
+
+
+        const users = [
+            {
+                id:0,
+                username:"sideway",
+                password:"23",
+                name : "룰루랄라"
+            },
+            {
+                id:1,
+                username:"jeong",
+                password:"28",
+                name : "호호홓"
+            },
+            {
+                id:2,
+                username:"you",
+                password:"25",
+                name : "눈누난나"
+            },
+        ];
+        
+        // *문제 =>고유값 1번 유저의 모든 정보를 콘솔로찍기
+        // console.log(
+        //     users[1].name
+        // )
+        const wrapEl = document.querySelector('.wrap')
+        const a = document.querySelector('.id')
+        const b = document.querySelector('.username')
+        const c = document.querySelector('.password')
+        const d = document.querySelector('.name')
+
+
+        // a.innerHTML = users[1].id
+        // b.innerHTML = users[1].username
+        // c.innerHTML = users[1].password
+        // d.innerHTML = users[1].name
+
+    </script>
+
+
+</body>
+</html>
