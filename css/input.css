@@ -1,0 +1,73 @@
+.wrap{
+    width: 500px;
+    border: 2px solid #dbdbdb;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    margin: 0 auto;
+}
+
+.title_wrap{
+    height: 60px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid #dbdbdb;
+}
+
+.title_img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: gray;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-image: url(../img/뚱이.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.img_box{
+    height: 500px;
+    background-color: gray;
+    background-image: url(../img/고양이.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.input_wrap{
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    border-top: 2px solid #dbdbdb;
+    border-bottom: 2px solid #dbdbdb;
+}
+
+.input_wrap input{
+    all: unset;
+    font-size: 20px;
+    color: #dbdbdb;
+    border: none;
+    margin-left: 20px;
+}
+
+.input_wrap button{
+    font-size: 20px;
+    color: cornflowerblue;
+    background-color: white;
+    border: none;
+    margin-right: 30px;
+}
+
+.comment_wrap{
+    padding: 0 20px;
+}
+
+.comment_wrap h5{
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+
